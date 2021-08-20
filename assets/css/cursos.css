@@ -34,7 +34,7 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 180px;
-    margin: 0 5px 12px 5px;
+    margin: 0 5px 14px 5px;
 }
 .curso__link {
     text-decoration: none;
@@ -42,21 +42,19 @@
     padding: 14px;
 }
 .curso__img {
-    height: 25px;
-    width: 25px;
-    margin-bottom: 3px;
+    height: 24px;
+    width: 24px;
 }
 .curso__titulo {
     color: #fff;
     font-size: 14px;
-    margin-bottom: 3px;
     font-weight: 700;
 }
 .curso__subtitulo {
     color: hsla(192, 15%, 94%, 0.671);
     font-family: OpenSansItalic, sans-serif;
     line-height: 18px;
-    font-size: 13.3px;
+    font-size: 13px;
 }
 .programação {
     background-color: #00c86f;

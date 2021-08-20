@@ -1,6 +1,17 @@
+@import url(busca.css);
+@import url(cabecalho.css);
+@import url(cursos.css);
+@import url(footer.css);
+@import url(info.css);
+@import url(login.css);
+
 @font-face {
     font-family: Lato;
     src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: LatoBold;
+    src: url(../fonts/Lato-Bold.ttf);
 }
 @font-face {
     font-family: "OpenSansExtraBold";
@@ -24,6 +35,10 @@
 @font-face {
     font-family: "OpenSansSemiBold";
     src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+body {
+    background-color: #f9fbfd;
+    font-family: Lato;
 }
 main {
     background-color: #FAFBFD;

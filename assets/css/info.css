@@ -1,0 +1,38 @@
+.info {
+    background-color: #2a7ae4;
+    color: #fff;
+    font-family: "OpenSansRegular";
+    text-align: start;
+    display: flex;
+    height: 122px;
+    align-items: center;
+}
+.info__img {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: 4px;
+}
+.info__div {
+    margin-left: 20px;
+}
+.info__h3 {
+    font-size: 23px;
+    font-family: "OpenSansExtraBold", sans-serif;
+    margin-bottom: 5px;
+}
+.info__p {
+    margin-bottom: 10px;
+}
+.info__link {
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 19px;
+    color: #2a7ae4;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: .5px;
+    padding: 10px 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+}

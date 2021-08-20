@@ -1,0 +1,81 @@
+.convite {
+    color: #747c81;
+    margin-top: 14px;
+    max-width: 600px;
+    text-align: center;
+    width: 50%;
+}
+.convite__titulo {
+    border-bottom: 3px solid #747c81;
+    font-family: "OpenSansExtraBold", sans-serif;
+    font-size: 42px;
+    letter-spacing: -.7px;
+    line-height: 57px;
+    margin-bottom: 5px;
+}
+.convite__subtitulo {
+    font-size: 21px;
+    font-family: OpenSansRegular, sans-serif;
+    letter-spacing: -.3px;
+    margin-top: 26px;
+}
+.cursos {
+    text-align: left;
+    font-family: OpenSansRegular, sans-serif;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    letter-spacing: .4px;
+}
+.curso__card {
+    display: flex;
+    border-top: 5px solid hsla(0,0%,100%,.3);
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 180px;
+    margin: 0 5px 12px 5px;
+}
+.curso__link {
+    text-decoration: none;
+    color: inherit;
+    padding: 14px;
+}
+.curso__img {
+    height: 25px;
+    width: 25px;
+    margin-bottom: 3px;
+}
+.curso__titulo {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 3px;
+    font-weight: 700;
+}
+.curso__subtitulo {
+    color: hsla(192, 15%, 94%, 0.671);
+    font-family: OpenSansItalic, sans-serif;
+    line-height: 18px;
+    font-size: 13.3px;
+}
+.programação {
+    background-color: #00c86f;
+}
+.fron-end {
+    background-color: #6bd1ff;
+}
+.data-science {
+    background-color: #9cd33b;
+}
+.devops {
+    background-color: #f16165;
+}
+.uxdesign {
+    background-color: #dc6ebe;
+}
+.mobile {
+    background-color: #ffba05;
+}
+.inovacao {
+    background-color: #ff8c2a;
+}

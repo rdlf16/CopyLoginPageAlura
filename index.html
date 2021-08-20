@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/busca.css">
+    <link rel="stylesheet" href="assets/css/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/cursos.css">
+    <link rel="stylesheet" href="assets/css/info.css">
+    <title>Login | Alura - Cursos online de tecnologia</title>
+</head>
+
+<body>
+    <header>
+        <section class="header__busca">
+            <div class="container">
+                <a class="busca__icon" href="#">
+                    <img class="busca__img" src="assets/imgs/Icons/icon_search.png" alt="Icone de busca">
+                </a>
+                <form class="busca__form busca__form--fechado" aria-expanded="false">
+                    <label class="busca__titulo" for="busca">Qual curso procura?</label>
+                    <input class="busca__input" id="busca" type="text" placeholder="Digite aqui a busca">
+                    <button class="busca__botao">Buscar</button>
+                </form>
+            </div>
+        </section>
+        <section class="cabecalho">
+            <div class="cabecalho__container">
+                <div>
+                    <a class="cabecalho__logo" href="#">alura</a>
+                </div>
+                <div class="cabecalho__acesso">
+                    <p>Ainda não tem acesso? estude com a gente!</p>
+                    <a class="cabecalho__link" href="#"><span class="cabecalho__botao">Matricule-se</span></a>
+                    <a class="cabecalho__link" href="#"><span class="cabecalho__botao botao--login">Login</span></a>
+                </div>
+            </div>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section class="main__container">
+            <div class="main__divisao">
+                <div class="login">
+                    <h2 class="login__titulo">Já estuda com a gente?</h2>
+                    <p class="login__subtitulo">Faça seu login e boa aula!</p>
+                    <form class="login__form">
+                        <label class="login__label" for="email">E-mail</label>
+                        <input class="login__input" id="email" type="email">
+                        <label class="login__label" for="senha">Senha</label>
+                        <input class="login__input" id="senha" type="password">
+                        <div class="login__botoes">
+                            <button class="login__botao--entrar">Entrar</button>
+                            <a class="login__botao--facebook" href="#">Entrar com facebook</a>
+                            <a class="login__botao--google" href="#">Entrar com google</a>
+                        </div>
+                    </form>
+                    <a class="login__esqueci__senha" href="#">Esqueci minha senha</a>
+                </div>
+                <div class="convite">
+                    <h2 class="convite__titulo">Ainda não estuda com a gente?</h2>
+                    <p class="convite__subtitulo">São mais de mil cursos nas seguintes áreas:</p>
+                    <section class="cursos">
+                        <div class="curso__card programação">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_code.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">Programação</h3>
+                                <p class="curso__subtitulo">Lógica de programação, Python, Dart e mais...</p>
+                            </a>
+                        </div>
+                        <div class="curso__card fron-end">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_code.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">Front-end</h3>
+                                <p class="curso__subtitulo">HTML e CSS, React, Angular e mais...</p>
+                            </a>
+                        </div>
+                        <div class="curso__card data-science">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_atom.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">Data Science</h3>
+                                <p class="curso__subtitulo">SQL e Banco de dados, Engenharia de Dados, Data Science e mais...</p>
+                            </a>
+                        </div>
+                        <div class="curso__card devops">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_gear.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">DevOps</h3>
+                                <p class="curso__subtitulo">Linux, Google Cloud Platform, Azure e mais...</p>
+                            </a>
+                        </div>
+                        <div class="curso__card uxdesign">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_eye.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">UX & Design</h3>
+                                <p class="curso__subtitulo">UI - User Interface, UX - User Experience, Design Gráfico e mais...</p>
+                            </a>
+                        </div>
+                        <div class="curso__card mobile">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_phone.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">Mobile</h3>
+                                <p class="curso__subtitulo">React Native, Flutter, Android e mais...</p>
+                            </a>
+                        </div>
+                        <div class="curso__card inovacao">
+                            <a class="curso__link" href="#">
+                                <img class="curso__img" src="assets/imgs/Icons/icon_cursor.png"
+                                    alt="Icone de programação">
+                                <h3 class="curso__titulo">Inovação & Gestão</h3>
+                                <p class="curso__subtitulo">Métodos Ágeis, Marketing, SEO, e mais...</p>
+                            </a>
+                        </div>
+                    </section>
+                    <div class="info">
+                        <div>
+                            <img class="info__img" src="assets/imgs/rocket.svg" alt="Foguete">
+                        </div>
+                        <div class="info__div">
+                            <h3 class="info__h3">Decole sua carreira!</h3>
+                            <p class="info__p">Acesse todo o conteúdo</p>
+                            <a class="info__link" href="#">Conheça os plano</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/busca.js"></script>
+</body>
+
+</html>

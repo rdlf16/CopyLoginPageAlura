@@ -14,26 +14,26 @@
     src: url(../fonts/Lato-Bold.ttf);
 }
 @font-face {
-    font-family: "OpenSansExtraBold";
+    font-family: OpenSansExtraBold;
     src: url(../fonts/OpenSans-ExtraBold.ttf);
 
 }
 @font-face {
-    font-family: "OpenSansRegular";
+    font-family: OpenSansRegular;
     src: url(../fonts/OpenSans-Regular.ttf);
 
 }
 @font-face {
-    font-family: "OpenSansItalic";
+    font-family: OpenSansItalic;
     src: url(../fonts/OpenSans-Italic.ttf);
 
 }
 @font-face {
-    font-family: "OpenSansBold";
+    font-family: OpenSansBold;
     src: url(../fonts/OpenSans-Bold.ttf);
 }
 @font-face {
-    font-family: "OpenSansSemiBold";
+    font-family: OpenSansSemiBold;
     src: url(../fonts/OpenSans-SemiBold.ttf);
 }
 body {
@@ -44,8 +44,8 @@ main {
     background-color: #FAFBFD;
 }
 .main__container {
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
     width: 96%;
 }
 .main__divisao {

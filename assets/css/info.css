@@ -1,11 +1,11 @@
 .info {
+    align-items: center;
     background-color: #2a7ae4;
     color: #fff;
-    font-family: "OpenSansRegular";
-    text-align: start;
     display: flex;
+    font-family: OpenSansRegular;
     height: 122px;
-    align-items: center;
+    text-align: start;
 }
 .info__img {
     display: inline-block;
@@ -17,8 +17,8 @@
     margin-left: 20px;
 }
 .info__h3 {
+    font-family: OpenSansExtraBold, sans-serif;
     font-size: 23px;
-    font-family: "OpenSansExtraBold", sans-serif;
     margin-bottom: 5px;
 }
 .info__p {
@@ -26,12 +26,12 @@
 }
 .info__link {
     background-color: #fff;
-    display: inline-block;
     border-radius: 19px;
     color: #2a7ae4;
+    display: inline-block;
     font-family: OpenSansBold, sans-serif;
-    font-weight: bold;
     font-size: 12px;
+    font-weight: bold;
     letter-spacing: .5px;
     padding: 12.5px 18px;
     text-transform: uppercase;

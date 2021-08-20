@@ -1,7 +1,7 @@
 .cabecalho {
     background-color: #051932;
     color: #fff;
-    font-family: "OpenSansRegular", sans-serif;
+    font-family: OpenSansRegular, sans-serif;
     height: 76px;
 }
 .cabecalho__container {
@@ -10,37 +10,37 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 1200px;
     width: 96%;
 }
 .cabecalho__logo {
     color: #fff;
-    text-decoration: none;
     font-size: 42px;
     letter-spacing: -3px;
+    text-decoration: none;
 }
 .cabecalho__acesso {
     display: flex;
-    text-transform: uppercase;
-    font-family: "OpenSansBold", sans-serif;
+    font-family: OpenSansBold, sans-serif;
     font-size: 13px;
     letter-spacing: .1px;
+    text-transform: uppercase;
 }
 .cabecalho__link {
-    text-decoration: none;
     margin: 0 10px;
+    text-decoration: none;
 }
 .cabecalho__botao {
     background-color: #a3ffbf;
     border-radius: 20px;
-    font-family: "OpenSansSemiBold", sans-serif;
     color: #051932;
+    font-family: OpenSansSemiBold, sans-serif;
     padding: 10px 30px;
 }
 .botao--login {
-    color: white;
     background-color: unset;
     border: 1px solid white;
+    color: white;
     padding: 9px 20px;
 }

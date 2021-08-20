@@ -7,39 +7,39 @@
 }
 .convite__titulo {
     border-bottom: 3px solid #747c81;
-    font-family: "OpenSansExtraBold", sans-serif;
+    font-family: OpenSansExtraBold, sans-serif;
     font-size: 42px;
     letter-spacing: -.7px;
     line-height: 57px;
     margin-bottom: 5px;
 }
 .convite__subtitulo {
-    font-size: 21px;
     font-family: OpenSansRegular, sans-serif;
+    font-size: 21px;
     letter-spacing: -.3px;
     margin-top: 26px;
 }
 .cursos {
-    text-align: left;
-    font-family: OpenSansRegular, sans-serif;
-    margin-top: 32px;
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    font-family: OpenSansRegular, sans-serif;
+    justify-content: space-between;
     letter-spacing: .4px;
+    margin-top: 32px;
+    text-align: left;
 }
 .curso__card {
-    display: flex;
-    border-top: 5px solid hsla(0,0%,100%,.3);
-    flex-direction: column;
     align-items: flex-start;
-    max-width: 180px;
+    border-top: 5px solid hsla(0,0%,100%,.3);
+    display: flex;
+    flex-direction: column;
     margin: 0 5px 14px 5px;
+    max-width: 180px;
 }
 .curso__link {
-    text-decoration: none;
     color: inherit;
     padding: 14px;
+    text-decoration: none;
 }
 .curso__img {
     height: 24px;
@@ -53,8 +53,8 @@
 .curso__subtitulo {
     color: hsla(192, 15%, 94%, 0.671);
     font-family: OpenSansItalic, sans-serif;
-    line-height: 18px;
     font-size: 13px;
+    line-height: 18px;
 }
 .programação {
     background-color: #00c86f;
